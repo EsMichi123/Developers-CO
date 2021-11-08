@@ -86,12 +86,15 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Femenino"/>
+            android:text="Femenino"
+            android:id="@+id/rbFemenino"
+            android:checked="true"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Masculino"/>
+            android:text="Masculino"
+            android:id="@+id/rbMasculino"/>
 
     </RadioGroup>
 
@@ -107,7 +110,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tu metabolismo basal es x y tu IMC es y"
         android:id="@+id/txtResultado"
         app:layout_constraintTop_toBottomOf="@id/btnCalcular"
         android:layout_marginTop="32px"
